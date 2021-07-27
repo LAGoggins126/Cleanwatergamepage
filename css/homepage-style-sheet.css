@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width:100%;
+    height:100%
+}
+
+/* page structure */
+
+body {
+    display:grid;
+    grid-template-columns: 16fr 2fr;
+    background-image: url(../Images/kristopher-roller-PC_lbSSxCZE-unsplash.jpg);
+    background-size:cover;
+}
+
+h1{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 100;
+    text-align:center;
+    color:black;
+    background-color:#f9f7f3;
+}
+
+.page{
+    width:700px;
+    margin:auto;
+    margin-top:15px;
+}
+
+.paragraph{
+    margin-top: 60px;
+    padding:20px;
+    background-color:#f9f7f37a;
+    font-size:25px;
+}
+
+.ending{
+    padding:20px;
+    margin:20px;
+    margin-right:200px;
+    margin-left:200px;
+    font-size: 20px;
+    font-weight:bolder;
+    text-align:center;
+    background-color:#f9f7f37a;
+}
+
+/* navigation styles */
+
+nav {
+    background-color:#BAA5FF;
+}
+
+nav ul {
+    text-align:right;
+}
+
+nav ul li {
+    text-align:center;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #54577c;
+}
+
+
