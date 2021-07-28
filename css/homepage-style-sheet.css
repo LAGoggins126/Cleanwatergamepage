@@ -59,12 +59,12 @@ nav {
 
 nav ul {
     text-align:right;
+    list-style:none;
+    padding:0;
 }
 
 nav ul li {
     text-align:center;
-    list-style:none;
-    padding:0;
 }
 
 nav ul li a{
