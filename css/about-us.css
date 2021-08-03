@@ -1,0 +1,42 @@
+main {
+    height: 100%;
+    width: 100%;
+}
+
+main section {
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main ul {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    list-style: none;
+}
+section {
+    display: flex;
+   flex-direction: column;
+}
+table {
+    border:1px solid rgb(90 173 191);
+    background-size: cover;
+    background-color: #f9f7f37a;
+    
+    width: 53%;
+    height: 51%;
+    
+}
+table thead {
+    height:40%;
+}
+
+table body {
+    height: 50%;
+}
+
+.table-h {
+    margin-top: 20px;
+}

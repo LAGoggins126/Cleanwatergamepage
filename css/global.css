@@ -1,0 +1,152 @@
+/* h1{
+    color: aqua;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    width: 100%;
+    height:100%;
+    background-color: brown;
+
+}
+*/
+/* PAGE structure */
+
+/* body {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-image: url(../image/willian-justen.jpg);
+    background-size: cover;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+/* text styles */
+/* h1,h2 {
+    font-weight: 200;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+img {
+    width: 100%;
+    margin-bottom: -4px;
+}
+*/
+
+
+/* navigation bar */
+/* nav {
+     background-color: coral;
+}
+
+nav ul {
+    text-align:right;
+}
+
+nav ul li {
+    display:inling-block;
+    text-align:right;
+}
+
+nav ul li a {
+    display: block;
+    color:darkseagreen;
+    padding: 1em;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: dimgray;
+}
+
+nav ul li:nth-child(2) a {
+    background-color: floralwhite;
+}
+
+nav ul li:nth-child(4) a {
+    background-color: floralwhite;
+    color: gainsboro;
+    transition: all 1s;
+}
+
+main {
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(110, 49, 61);
+}
+
+.panels {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+}
+
+footer {
+       background-color: darkgreen;
+} */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2{
+    color: rgb(0, 0, 0);
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    grid-template-columns: 12fr, 3fr;
+    background-image: url(../image/about-us-background.jpg);
+    background-size: cover;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* navigation bar */
+nav {
+    width:15%;
+    background-color:#BAA5FF;
+}
+nav ul {
+    /* text-align:right; */
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+nav ul li {
+    text-align:left;
+}
+
+nav ul li a{
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+nav ul li a:hover {
+    background-color: #54577c;
+}
