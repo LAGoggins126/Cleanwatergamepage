@@ -1,35 +1,44 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
 /* page structure */
 
 body {
-    display:grid;
+    display: grid;
     grid-template-columns: 16fr 2fr;
-    background-color: cornflowerblue;
-    background-size:cover;
+    background-image: url(../Images/gamepage.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    margin-top: 20px;
 }
 
 /* navigation styles */
 
 nav {
-    background-color:#BAA5FF;
+    background-color: #BAA5FF;
 }
 
 nav ul {
-    text-align:right;
+    text-align: right;
+    list-style: none;
 }
 
 nav ul li {
-    text-align:center;
+    text-align: center;
 }
 
 nav ul li a{
