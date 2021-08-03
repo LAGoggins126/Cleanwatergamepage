@@ -1,37 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    width: 100%;
-    height: 100%;
-}
-
-/* page structure */
-
-body {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    background-image: url(../Images/homepage.jpg);
-    background-size: cover;
-}
-
-h1{
-    font-family: 'Marcellus SC', serif;
-    font-weight: 100;
-    text-align: center;
-    color: black;
-    background-color: #f9f7f3;
-}
-
-.page{
-    width: 700px;
-    margin: auto;
-    margin-top: 15px;
-}
 
 .paragraph{
     margin-top: 60px;
@@ -53,32 +20,6 @@ h1{
 
 
 
-/* navigation styles */
 
-nav {
-    background-color: #BAA5FF;
-}
-
-nav ul {
-    text-align: right;
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    text-align: left;
-}
-
-nav ul li a{
-    display: block;
-    color: black;
-    padding: 20px;
-    text-decoration: none;
-    transition: all 0.5s;
-}
-
-nav ul li a:hover {
-    background-color: #54577c;
-}
 
 
