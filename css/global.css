@@ -1,45 +1,55 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
 *{
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 html, body {
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
 }
 
-/* PAGE STRUCTURE */
+/* page structure */
 
 body {
-    display:grid;
-    grid-template-rows: auto 1fr auto;
-    background-image: url(../Images/kristopher-roller-PC_lbSSxCZE-unsplash.jpg);
-    background-size:cover;
-    font-size: 20px;
-    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-image: url(../Images/homepage.jpg);
+    background-size: cover;
 }
 
-img {
-    width: 100%;
-    margin-bottom: -4px;
-}
-/* text styles*/
-
-h1, h2 {
-    font-weight:200;
+.page{
+    width: 700px;
+    margin: auto;
+    margin-top: 15px;
 }
 
+/* text styles */
+
+h1{
+    font-family: 'Marcellus SC', serif;
+    font-weight: 100;
+    text-align: center;
+    color: black;
+    background-color: #f9f7f3;
+}
 
 /* navigation styles */
 
 nav {
-    background-color: cornflowerblue;
+    background-color: #BAA5FF;
 }
 
 nav ul {
-    text-align:center;
+    text-align: right;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: left;
 }
 
 nav ul li a{
@@ -51,37 +61,5 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    background-color:darkorchid;
-}
-
-nav ul li:last-child a {
-    background-color:darkturquoise;
-}
-
-nav ul li:last-child a:hover {
-    background-color:darkorchid;
-}
-
-nav ul li {
-    display:inline-block;
-
-}
-
-
-main {
-    background-color: crimson;
-    width:100%;
-    max-width:900px;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.panels {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    height:250px;
-}
-
-footer{
-    background-color: darkgoldenrod;
+    background-color: #54577c;
 }
