@@ -1,0 +1,46 @@
+
+.background-log-in {
+    padding: 0 13% 30% 13%;
+    background-color:white;
+    width: 100%;   
+    border-radius:20px;
+    position:relative;
+    margin-top:20%;
+}
+main {
+}
+.user-input{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    background-color:rgb(236, 232, 150);
+}
+.user-input input{
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    background-color:transparent;
+    border:none;
+    
+}
+.user-input i{
+    font-size: 2em;
+    padding:8px;
+}
+.user-password i{
+ font-size:2em;
+ padding:8px;
+}
+.user-password input{
+    width: 100%;
+    padding: 12px;
+    font-size: 1em;
+    background-color:transparent;
+    border:none;
+}
+.user-password{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    background-color:rgb(236, 232, 150);
+    margin-top: 5%;
+
+}
