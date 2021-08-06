@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
 .background-log-in {
-    padding: 0 13% 30% 13%;
+    padding: 0 13% 3% 13%;
     background-color:white;
-    width: 100%;   
+    width: 100%; 
+    height: 100%;
     border-radius:20px;
     position:relative;
     margin-top:20%;
@@ -20,7 +22,6 @@ main {
     font-size: 1em;
     background-color:transparent;
     border:none;
-    
 }
 .user-input i{
     font-size: 2em;
@@ -28,7 +29,7 @@ main {
 }
 .user-password i{
  font-size:2em;
- padding:8px;
+ padding: 8px;
 }
 .user-password input{
     width: 100%;
@@ -43,4 +44,45 @@ main {
     background-color:rgb(236, 232, 150);
     margin-top: 5%;
 
+}
+h2 {
+    font-family: 'Marcellus SC', serif;
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 15px;
+    color:blue;
+}
+h1{
+    font-size:55px;
+}
+h2 a {
+    color:blue;
+}
+.log-in-button{
+    color:#15650E;
+    font-family: 'Marcellus SC', serif;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color:#7DC09C;
+    border-radius:5px;
+    position:relative;
+    margin-top:5%;
+    width: 20%;
+    margin-left: 38%;
+}
+.forgot-password{
+    margin-left: 15%;
+    margin-top: 5%;
+    color: red;
+    position:relative;
+}
+.forgot-password a {
+    color:red;
+}
+hr {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
 }
