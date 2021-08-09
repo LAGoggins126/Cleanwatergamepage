@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
@@ -20,7 +21,8 @@ body {
 }
 
 .page{
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     margin: auto;
     margin-top: 15px;
 }
@@ -32,13 +34,14 @@ h1{
     font-weight: 100;
     text-align: center;
     color: black;
-    margin-top: 10px;
-}
+
 
 /* navigation styles */
 
 nav {
-    background-color: #2f6690;
+
+    background-color: #2F6690;
+
 }
 
 nav ul {
