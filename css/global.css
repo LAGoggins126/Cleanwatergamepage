@@ -16,7 +16,6 @@ body {
     height: 100%;
     display: grid;
     grid-template-columns: 1fr auto;
-    background-image: url(../Images/homepage.jpg);
     background-size: cover;
 }
 
