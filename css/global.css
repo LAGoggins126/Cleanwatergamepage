@@ -33,13 +33,13 @@ h1{
     font-weight: 100;
     text-align: center;
     color: black;
-    background-color: #f9f7f3;
+    margin-top: 10px;
 }
 
 /* navigation styles */
 
 nav {
-    background-color: #BAA5FF;
+    background-color: #2f6690;
 }
 
 nav ul {
@@ -61,5 +61,5 @@ nav ul li a{
 }
 
 nav ul li a:hover {
-    background-color: #54577c;
+    background-color: #254f70;
 }

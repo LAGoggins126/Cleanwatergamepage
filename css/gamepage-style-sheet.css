@@ -1,54 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-}
 
-html, body {
-    width: 100%;
-    height: 100%;
-}
+    body {
+        background-image: url(../Images/gamepage.jpg);
+    }
 
-/* page structure */
+   .box {
+       width: 65%;
+       height: 65%;
+       background-color: #99c1b9;
+       margin: 0;
+       position: relative;
+       top: 45%;
+       right: -18%;
+       transform:translateY(-50%);
+       border-radius:25px;
+       display: flex;
+   }
 
-body {
-    display: grid;
-    grid-template-columns: 16fr 2fr;
-    background-image: url(../Images/gamepage.jpg);
-    background-size: cover;
-}
+   .game {
+       width: 80%;
+       height: 75%;
+       margin: 0;
+       position: relative;
+       top: 50%;
+       right: -13%;
+       transform:translateY(-50%);
+       border-radius:10px;
+       display:flex;
+   }
 
-h1{
-    font-family: 'Marcellus SC', serif;
-    font-weight: 100;
-    text-align: center;
-    color: black;
-    margin-top: 20px;
-}
+   .paragraph h2 {
+       width:35%;
+       height: 50%;
+       text-align:left;
+       background-color: #f9f8f8;
+       position: relative;
+       margin: 0;
+       padding: 10px;
+       right: -40%;
+       bottom: -25%;
+       border-radius: 10px;
+   }
 
-/* navigation styles */
-
-nav {
-    background-color: #BAA5FF;
-}
-
-nav ul {
-    text-align: right;
-    list-style: none;
-}
-
-nav ul li {
-    text-align: center;
-}
-
-nav ul li a{
-    display: block;
-    color: black;
-    padding: 20px;
-    text-decoration: none;
-    transition: all 0.5s;
-}
-
-nav ul li a:hover {
-    background-color: #54577c;
-}
+   h1{
+       padding: 20px;
+       font-weight: 300;
+   }
