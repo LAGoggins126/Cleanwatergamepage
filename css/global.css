@@ -35,12 +35,14 @@ h1{
     font-weight: 100;
     text-align: center;
     color: black;
-}
+
 
 /* navigation styles */
 
 nav {
+
     background-color: #2F6690;
+
 }
 
 nav ul {
