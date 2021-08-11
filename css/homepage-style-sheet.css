@@ -1,5 +1,7 @@
 
-
+body{
+    background-image: url(..//Images/homepage.jpg);
+}
 .paragraph{
     margin-top: 60px;
     padding: 20px;
