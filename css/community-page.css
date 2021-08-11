@@ -1,0 +1,20 @@
+
+.comment-text{
+    border-color: blue;
+    border: 10%;
+    text-align: center;
+}
+.comment-section-background{
+    width:30%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+body{
+    background-image: url(../images/gamepage.jpg);
+}
+h3 {
+    text-align: center;
+}
