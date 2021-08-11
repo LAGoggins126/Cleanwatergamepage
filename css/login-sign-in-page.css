@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
 
-body {
-    background-image: url(../images/log-in-background.jpg);
+
+body{
+    background-image: url(../Images/log-in-background.jpg);
+
+
 }
 .background-log-in {
     padding: 0 13% 3% 13%;
