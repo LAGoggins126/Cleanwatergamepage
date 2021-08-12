@@ -6,15 +6,54 @@
 }
 .comment-section-background{
     width:30%;
-    height: 80%;
+    height: 80%;    
     background-color: white;
     border-radius: 10px;
     margin-top: 8%;
     margin-left: 10%;
+    box-sizing: border-box;
+    border: 1rem solid;
+    border-color: rgb(47, 102, 144);
 }
 body{
     background-image: url(../images/gamepage.jpg);
 }
 h3 {
     text-align: center;
+}
+hr {
+    width: 100%;
+    height: 5px;
+    background-color: rgb(47, 102, 144);
+    text-align: center;
+    margin-top: 5%;
+}
+input {
+    width: 80%;
+}
+.feedback-box{
+    padding: 20%;
+    padding-top: 33%;
+    padding-bottom: 5%;
+    margin-right: -180%;
+    margin-left: 120%;
+    margin-top: 60%;
+    box-sizing: border-box;
+    background-color: white;
+    border: 0.8rem solid rgb(47, 102, 144);
+}
+h2 {
+    padding: 1%;
+    background-color: grey;
+    margin-top: -28%;
+    margin-left: -13%;
+    margin-right: 68%;
+    font-size: 18px;
+    color:white;
+}
+.feedback-box input {
+ margin-top: 3%;
+ margin-left: -13%;
+ width: 126%;
+ height: 200px;
 }
