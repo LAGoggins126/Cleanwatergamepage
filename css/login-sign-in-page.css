@@ -15,8 +15,6 @@ body{
     position:relative;
     margin-top:20%;
 }
-main {
-}
 .user-input{
     display:grid;
     grid-template-columns: auto 1fr;
